@@ -8,7 +8,12 @@ import CarContainer from './components/CarItem/index';
 export default function App() {
   return (
     <View style={styles.container}>
-      <CarContainer/>
+      <CarContainer 
+        name={"Car X"}
+        tagline={"Order Online for"}
+        taglineCTA={"Touchless Delivery"}
+        image={require('./assets/images/ModelX.jpeg')}
+      />
       <StatusBar style="auto" />
     </View>
   );

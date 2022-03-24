@@ -16,13 +16,21 @@ const styles = StyleSheet.create({
     },
     subtitle: {
         fontSize: 15,
-        color: 'gray',
+        color: 'black',
+    },
+    taglineCTA: {
+        textDecorationLine: 'underline'
     },
     backgroundImage: {
         width: '100%',
         height: '100%',
         resizeMode: 'cover',
         position: 'absolute',
+    },
+    buttonContainer: {
+        position: 'absolute',
+        bottom: 50,
+        width: '100%',
     }
 });
 
