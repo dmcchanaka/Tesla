@@ -3,17 +3,12 @@ import { StyleSheet, Text, View } from 'react-native';
 
 const image = { uri: "https://reactjs.org/logo-og.png" };
 
-import CarContainer from './components/CarItem/index';
+import CarList from './components/CarList/index';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <CarContainer 
-        name={"Car X"}
-        tagline={"Order Online for"}
-        taglineCTA={"Touchless Delivery"}
-        image={require('./assets/images/ModelX.jpeg')}
-      />
+      <CarList />
       <StatusBar style="auto" />
     </View>
   );
